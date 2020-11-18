@@ -3,17 +3,22 @@
 .tour{
     background: $mainGrey;
     border-radius: 0.8rem;
-    margin: 1rem 0;
+    margin-left: .5rem ;
     display: inline;
+    
     img{
         width: 100%;
         border-top-left-radius: 0.8rem;
         border-top-right-radius: 0.8rem;
         display: block;
+       
     }
 }
 .img-container{
     position: relative;
+}
+article{
+    margin-bottom: 3rem;
 }
 .close-btn{
     position: absolute;

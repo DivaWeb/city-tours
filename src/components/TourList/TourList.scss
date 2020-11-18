@@ -1,9 +1,14 @@
 .tourlist{
 width: 70vw;
-margin: 0 atuo;
+margin: 0rem atuo;
 padding: 2rem 0;
+margin-left: 9rem;
 }
-
+@media screen and (min-width: 360px){
+    .tourlist{
+        margin-left: 3.5rem;
+    }
+}
 @media screen and (min-width: 768px){
     .tourlist{
         display: grid;
