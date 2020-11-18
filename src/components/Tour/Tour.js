@@ -15,7 +15,7 @@ function Tour({tour, removeTour}){
         <article className="tour">
             <div className="img-container">
                 <img 
-                src={img} alt="city image"/>
+                src={img} alt="city"/>
                 <span className="close-btn" onClick={() => {removeTour(id)}} >
                     <i className="fas fa-window-close"  />
                 </span>
